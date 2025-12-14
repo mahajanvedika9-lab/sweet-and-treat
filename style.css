@@ -1,0 +1,164 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff7f2;
+    color: #4a2c2a;
+    line-height: 1.6;
+    h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+p, a {
+    font-family: 'Dancing Script', cursive;
+}
+.logo, .logo span {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #4a2c2a;
+}
+}
+
+
+
+
+
+/* Header / Navbar */
+header {
+    background-color: #ffb3c6;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4a2c2a;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #4a2c2a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #ffe8ef;
+    padding: 80px 20px;
+}
+
+#home h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 18px;
+}
+
+/* Menu Section */
+#menu {
+    background-color: #fff;
+}
+
+#menu h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.item {
+    background-color: #ffe3e3;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.item:hover {
+    background-color: #ffccd5;
+    transform: scale(1.02);
+}
+
+.item h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* About Section */
+#about {
+    background-color: #fff1f5;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffe8ef;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #ffb3c6;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #4a2c2a;
+}
+/* Scroll Animation */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.menu-img {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
